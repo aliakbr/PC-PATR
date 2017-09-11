@@ -1,0 +1,623 @@
+untuk setiap transaksi , ditarik biaya sebesar 0,20 us$ dan juga 3 % dari total transaksi
+
+1:
+                                      KALIMAT_1
+                                          |
+                                      INVERSI_2
+                  ________________________|_________________________
+             WDEPANKL_3+          PRED_14+                     SUBJP_17
+        __________|__________         |       _____________________|_____________________
+     KET_4+             Kkord_13+ FVPRED_15+ OBJ_18+                                 KET_22
+        |                   ,         |       |                  _______________________|_______________________
+   KTUJUAN_5+                    Vpasif_16+ FN_19+          KBANDING_23                                     KET_39+
+   _____|______                    ditarik    |       ___________|___________                                  |
+Prep_6+     FN_7+                        NMINORG_20+ Prep_24+            FNUM_25                          KTEMPAT_40+
+ untuk    ____|_____                          |    sebesar   _______________|_______________              _____|______
+     WDEPANFN_8+ NMINORG_11+                N_21+       NUMATR_26+ GOLATR_28+ KKORD_30+ FNUM_32+      Prep_41+    FN_42+
+          |        |                        biaya            |      |       |       _______|_______     dari     ____|_____
+       FNUM_9+   N_12+                                    Num_27+ Gol_29+ Kkord_31+ WDEPAN_33+ NUMATR_35+ GOLATR_37+ NMINORG_43+ WBLKGFN_45+
+          |    transaksi                                   0,20    us$     dan      |      |      |              |        |
+       Num_10+                                                                   Adv_34+ Num_36+ Gol_38+       N_44+  NATR_46+
+       setiap                                                                     juga     3      %            total      |
+                                                                                                                     NMINORG_47+
+                                                                                                                          |
+                                                                                                                        N_48+
+                                                                                                                      transaksi
+
+KALIMAT_1:
+[ cat:   KALIMAT
+  subcat:INVERSI ]
+
+INVERSI_2:
+[ cat:   INVERSI ]
+
+WDEPANKL_3:
+[ cat:   WDEPANKL ]
+
+KET_4:
+[ cat:   KET
+  subcat:KTUJUAN ]
+
+KTUJUAN_5:
+[ cat:   KTUJUAN
+  subcat:FN ]
+
+Prep_6 (unified):
+[ cat:   Prep
+  lex:   untuk
+  subcat:tujuan ]
+
+Prep_6 (lexicon):
+[ cat:   Prep
+  lex:   untuk
+  subcat:tujuan ]
+
+FN_7:
+[ cat:   FN
+  subcat:istilah ]
+
+WDEPANFN_8:
+[ cat:   WDEPANFN ]
+
+FNUM_9:
+[ cat:   FNUM
+  subcat:biasa ]
+
+Num_10 (unified):
+[ cat:   Num
+  lex:   setiap
+  subcat:biasa ]
+
+Num_10 (lexicon):
+[ cat:   Num
+  lex:   setiap
+  subcat:biasa ]
+
+NMINORG_11:
+[ cat:   NMINORG
+  subcat:istilah ]
+
+N_12 (unified):
+[ cat:   N
+  lex:   transaksi
+  subcat:istilah ]
+
+N_12 (lexicon):
+[ cat:   N
+  lex:   transaksi
+  subcat:istilah ]
+
+Kkord_13 (unified):
+[ cat:   Kkord
+  lex:   ,
+  subcat:koma ]
+
+Kkord_13 (lexicon):
+[ cat:   Kkord
+  lex:   ,
+  subcat:koma ]
+
+PRED_14:
+[ cat:   PRED
+  subcat:Vpasif ]
+
+FVPRED_15:
+[ cat:   FVPRED
+  subcat:Vpasif ]
+
+Vpasif_16 (unified):
+[ cat:   Vpasif
+  lex:   ditarik
+  subcat:transitif ]
+
+Vpasif_16 (lexicon):
+[ cat:   Vpasif
+  lex:   ditarik
+  subcat:transitif ]
+
+SUBJP_17:
+[ cat:   SUBJP
+  subcat:istilah ]
+
+OBJ_18:
+[ cat:   OBJ
+  subcat:istilah ]
+
+FN_19:
+[ cat:   FN
+  subcat:istilah ]
+
+NMINORG_20:
+[ cat:   NMINORG
+  subcat:istilah ]
+
+N_21 (unified):
+[ cat:   N
+  lex:   biaya
+  subcat:istilah ]
+
+N_21 (lexicon):
+[ cat:   N
+  lex:   biaya
+  subcat:istilah ]
+
+KET_22:
+[ cat:   KET
+  subcat:KBANDING ]
+
+KBANDING_23:
+[ cat:   KBANDING
+  subcat:FNUM ]
+
+Prep_24 (unified):
+[ cat:   Prep
+  lex:   sebesar
+  subcat:pembandingan ]
+
+Prep_24 (lexicon):
+[ cat:   Prep
+  lex:   sebesar
+  subcat:pembandingan ]
+
+FNUM_25:
+[ cat:   FNUM
+  subcat:GOLATR ]
+
+NUMATR_26:
+[ cat:   NUMATR
+  subcat:pokok ]
+
+Num_27 (unified):
+[ cat:   Num
+  lex:   0,20
+  subcat:pokok ]
+
+Num_27 (lexicon):
+[ cat:   Num
+  lex:   0,20
+  subcat:pokok ]
+
+GOLATR_28:
+[ cat:   GOLATR ]
+
+Gol_29 (unified):
+[ cat:   Gol
+  lex:   us$ ]
+
+Gol_29 (lexicon):
+[ cat:   Gol
+  lex:   us$ ]
+
+KKORD_30:
+[ cat:   KKORD
+  subcat:biasa ]
+
+Kkord_31 (unified):
+[ cat:   Kkord
+  lex:   dan
+  subcat:biasa ]
+
+Kkord_31 (lexicon):
+[ cat:   Kkord
+  lex:   dan
+  subcat:biasa ]
+
+FNUM_32:
+[ cat:   FNUM
+  subcat:GOLATR ]
+
+WDEPAN_33:
+[ cat:   WDEPAN ]
+
+Adv_34 (unified):
+[ cat:   Adv
+  lex:   juga
+  subcat:aspek ]
+
+Adv_34 (lexicon):
+[ cat:   Adv
+  lex:   juga
+  subcat:aspek ]
+
+NUMATR_35:
+[ cat:   NUMATR
+  subcat:pokok ]
+
+Num_36 (unified):
+[ cat:   Num
+  lex:   3
+  subcat:pokok ]
+
+Num_36 (lexicon):
+[ cat:   Num
+  lex:   3
+  subcat:pokok ]
+
+GOLATR_37:
+[ cat:   GOLATR ]
+
+Gol_38 (unified):
+[ cat:   Gol
+  lex:   % ]
+
+Gol_38 (lexicon):
+[ cat:   Gol
+  lex:   % ]
+
+KET_39:
+[ cat:   KET
+  subcat:KTEMPAT ]
+
+KTEMPAT_40:
+[ cat:   KTEMPAT
+  subcat:FN ]
+
+Prep_41 (unified):
+[ cat:   Prep
+  lex:   dari
+  subcat:tempat ]
+
+Prep_41 (lexicon):
+[ cat:   Prep
+  lex:   dari
+  subcat:tempat ]
+
+FN_42:
+[ cat:   FN
+  subcat:istilah ]
+
+NMINORG_43:
+[ cat:   NMINORG
+  subcat:istilah ]
+
+N_44 (unified):
+[ cat:   N
+  lex:   total
+  subcat:istilah ]
+
+N_44 (lexicon):
+[ cat:   N
+  lex:   total
+  subcat:istilah ]
+
+WBLKGFN_45:
+[ cat:   WBLKGFN
+  subcat:istilah ]
+
+NATR_46:
+[ cat:   NATR
+  subcat:istilah ]
+
+NMINORG_47:
+[ cat:   NMINORG
+  subcat:istilah ]
+
+N_48 (unified):
+[ cat:   N
+  lex:   transaksi
+  subcat:istilah ]
+
+N_48 (lexicon):
+[ cat:   N
+  lex:   transaksi
+  subcat:istilah ]
+
+
+2:
+                                  KALIMAT_49
+                                       |
+                                  INVERSI_50
+                  _____________________|______________________
+             WDEPANKL_3+          PRED_14+               SUBJP_51
+        __________|__________         |       _______________|_______________
+     KET_4+             Kkord_13+ FVPRED_15+ OBJ_18+                     KET_52
+        |                   ,         |       |            _________________|_________________
+   KTUJUAN_5+                    Vpasif_16+ FN_19+    KBANDING_53                         KET_55
+   _____|______                    ditarik    |       _____|_____           _________________|__________________
+Prep_6+     FN_7+                        NMINORG_20+ Prep_24+ FNUM_54   KKORD_30+      KWAKTU_56            KET_39+
+ untuk    ____|_____                          |    sebesar   ___|____       |              |                   |
+     WDEPANFN_8+ NMINORG_11+                N_21+       NUMATR_26+ GOLATR_28+ Kkord_31+ FNUM_32+          KTEMPAT_40+
+          |        |                        biaya            |      |      dan      _______|_______       _____|______
+       FNUM_9+   N_12+                                    Num_27+ Gol_29+      WDEPAN_33+ NUMATR_35+ GOLATR_37+ Prep_41+ FN_42+
+          |    transaksi                                   0,20    us$              |      |      |     dari     ____|_____
+       Num_10+                                                                   Adv_34+ Num_36+ Gol_38+    NMINORG_43+ WBLKGFN_45+
+       setiap                                                                     juga     3      %              |        |
+                                                                                                               N_44+  NATR_46+
+                                                                                                               total      |
+                                                                                                                     NMINORG_47+
+                                                                                                                          |
+                                                                                                                        N_48+
+                                                                                                                      transaksi
+
+KALIMAT_49:
+[ cat:   KALIMAT
+  subcat:INVERSI ]
+
+INVERSI_50:
+[ cat:   INVERSI ]
+
+WDEPANKL_3:
+[ cat:   WDEPANKL ]
+
+KET_4:
+[ cat:   KET
+  subcat:KTUJUAN ]
+
+KTUJUAN_5:
+[ cat:   KTUJUAN
+  subcat:FN ]
+
+Prep_6 (unified):
+[ cat:   Prep
+  lex:   untuk
+  subcat:tujuan ]
+
+Prep_6 (lexicon):
+[ cat:   Prep
+  lex:   untuk
+  subcat:tujuan ]
+
+FN_7:
+[ cat:   FN
+  subcat:istilah ]
+
+WDEPANFN_8:
+[ cat:   WDEPANFN ]
+
+FNUM_9:
+[ cat:   FNUM
+  subcat:biasa ]
+
+Num_10 (unified):
+[ cat:   Num
+  lex:   setiap
+  subcat:biasa ]
+
+Num_10 (lexicon):
+[ cat:   Num
+  lex:   setiap
+  subcat:biasa ]
+
+NMINORG_11:
+[ cat:   NMINORG
+  subcat:istilah ]
+
+N_12 (unified):
+[ cat:   N
+  lex:   transaksi
+  subcat:istilah ]
+
+N_12 (lexicon):
+[ cat:   N
+  lex:   transaksi
+  subcat:istilah ]
+
+Kkord_13 (unified):
+[ cat:   Kkord
+  lex:   ,
+  subcat:koma ]
+
+Kkord_13 (lexicon):
+[ cat:   Kkord
+  lex:   ,
+  subcat:koma ]
+
+PRED_14:
+[ cat:   PRED
+  subcat:Vpasif ]
+
+FVPRED_15:
+[ cat:   FVPRED
+  subcat:Vpasif ]
+
+Vpasif_16 (unified):
+[ cat:   Vpasif
+  lex:   ditarik
+  subcat:transitif ]
+
+Vpasif_16 (lexicon):
+[ cat:   Vpasif
+  lex:   ditarik
+  subcat:transitif ]
+
+SUBJP_51:
+[ cat:   SUBJP
+  subcat:istilah ]
+
+OBJ_18:
+[ cat:   OBJ
+  subcat:istilah ]
+
+FN_19:
+[ cat:   FN
+  subcat:istilah ]
+
+NMINORG_20:
+[ cat:   NMINORG
+  subcat:istilah ]
+
+N_21 (unified):
+[ cat:   N
+  lex:   biaya
+  subcat:istilah ]
+
+N_21 (lexicon):
+[ cat:   N
+  lex:   biaya
+  subcat:istilah ]
+
+KET_52:
+[ cat:   KET
+  subcat:KBANDING ]
+
+KBANDING_53:
+[ cat:   KBANDING
+  subcat:FNUM ]
+
+Prep_24 (unified):
+[ cat:   Prep
+  lex:   sebesar
+  subcat:pembandingan ]
+
+Prep_24 (lexicon):
+[ cat:   Prep
+  lex:   sebesar
+  subcat:pembandingan ]
+
+FNUM_54:
+[ cat:   FNUM
+  subcat:GOLATR ]
+
+NUMATR_26:
+[ cat:   NUMATR
+  subcat:pokok ]
+
+Num_27 (unified):
+[ cat:   Num
+  lex:   0,20
+  subcat:pokok ]
+
+Num_27 (lexicon):
+[ cat:   Num
+  lex:   0,20
+  subcat:pokok ]
+
+GOLATR_28:
+[ cat:   GOLATR ]
+
+Gol_29 (unified):
+[ cat:   Gol
+  lex:   us$ ]
+
+Gol_29 (lexicon):
+[ cat:   Gol
+  lex:   us$ ]
+
+KET_55:
+[ cat:   KET
+  subcat:KWAKTU ]
+
+KKORD_30:
+[ cat:   KKORD
+  subcat:biasa ]
+
+Kkord_31 (unified):
+[ cat:   Kkord
+  lex:   dan
+  subcat:biasa ]
+
+Kkord_31 (lexicon):
+[ cat:   Kkord
+  lex:   dan
+  subcat:biasa ]
+
+KWAKTU_56:
+[ cat:   KWAKTU
+  subcat:FNUM ]
+
+FNUM_32:
+[ cat:   FNUM
+  subcat:GOLATR ]
+
+WDEPAN_33:
+[ cat:   WDEPAN ]
+
+Adv_34 (unified):
+[ cat:   Adv
+  lex:   juga
+  subcat:aspek ]
+
+Adv_34 (lexicon):
+[ cat:   Adv
+  lex:   juga
+  subcat:aspek ]
+
+NUMATR_35:
+[ cat:   NUMATR
+  subcat:pokok ]
+
+Num_36 (unified):
+[ cat:   Num
+  lex:   3
+  subcat:pokok ]
+
+Num_36 (lexicon):
+[ cat:   Num
+  lex:   3
+  subcat:pokok ]
+
+GOLATR_37:
+[ cat:   GOLATR ]
+
+Gol_38 (unified):
+[ cat:   Gol
+  lex:   % ]
+
+Gol_38 (lexicon):
+[ cat:   Gol
+  lex:   % ]
+
+KET_39:
+[ cat:   KET
+  subcat:KTEMPAT ]
+
+KTEMPAT_40:
+[ cat:   KTEMPAT
+  subcat:FN ]
+
+Prep_41 (unified):
+[ cat:   Prep
+  lex:   dari
+  subcat:tempat ]
+
+Prep_41 (lexicon):
+[ cat:   Prep
+  lex:   dari
+  subcat:tempat ]
+
+FN_42:
+[ cat:   FN
+  subcat:istilah ]
+
+NMINORG_43:
+[ cat:   NMINORG
+  subcat:istilah ]
+
+N_44 (unified):
+[ cat:   N
+  lex:   total
+  subcat:istilah ]
+
+N_44 (lexicon):
+[ cat:   N
+  lex:   total
+  subcat:istilah ]
+
+WBLKGFN_45:
+[ cat:   WBLKGFN
+  subcat:istilah ]
+
+NATR_46:
+[ cat:   NATR
+  subcat:istilah ]
+
+NMINORG_47:
+[ cat:   NMINORG
+  subcat:istilah ]
+
+N_48 (unified):
+[ cat:   N
+  lex:   transaksi
+  subcat:istilah ]
+
+N_48 (lexicon):
+[ cat:   N
+  lex:   transaksi
+  subcat:istilah ]
+
+2 parses found
+
+
+File parsing statistics: 1 sentence read
+           1 sentence  with 2 parses
+1 of 1 (100.0 %) parsed at least once
